@@ -1,0 +1,91 @@
+/* MenCategories.css */
+
+/* Style for the product card */
+.product-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #eaeaea;
+    /* Light border */
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    /* Ensure cards are flex containers */
+    height: 100%;
+    /* Full height to keep cards consistent */
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    /* Slight lift effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+.product-card img {
+    height: 200px;
+    /* Fixed height for images */
+    object-fit: contain;
+    /* Ensure images fit within the card */
+
+
+}
+
+.card-body {
+    flex: 1;
+    /* Allow body to expand and fill card */
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 0.5rem;
+    /* Consistent padding */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    /* Slightly larger font size */
+    font-weight: 600;
+    /* Bold font weight */
+}
+
+.card-text {
+    font-size: 0.875rem;
+    /* Slightly smaller font size */
+}
+
+.text-primary {
+    color: #000 !important;
+    /* Primary color for headings */
+}
+
+.text-dark {
+    color: #343a40;
+    /* Darker text color */
+}
+
+.text-muted {
+    color: #6c757d;
+    /* Muted text color */
+}
+
+.text-secondary {
+    color: #495057;
+    /* Secondary text color */
+}
+
+.btn-primary {
+    background-color: #7ac400;
+    /* Primary button color */
+    border: none;
+    /* Remove border */
+}
+
+.btn-primary:hover {
+    background-color: #629e0e;
+    /* Darker shade on hover */
+}
+
+@media (max-width: 768px) {
+    .product-card img {
+        height: auto;
+        /* Auto height on smaller screens */
+    }
+}
