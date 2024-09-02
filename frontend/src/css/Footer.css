@@ -1,0 +1,15 @@
+
+footer {
+    background-color: #343a40; 
+    color: #fff; 
+  }
+  
+  .footer-link {
+    color: #fff; 
+    text-decoration: none; 
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline; 
+  }
+  
