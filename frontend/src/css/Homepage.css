@@ -1,0 +1,30 @@
+
+.container {
+    
+    max-width: 960px; 
+  }
+  
+  h2 {
+    font-size: 2rem; 
+    font-weight: bold; 
+  }
+  
+  .container {
+    
+    margin-top: 80px; 
+    margin-bottom: 80px; 
+  }
+  
+  .text-center {
+    text-align: center; 
+  }
+
+  .carousel-inner img {
+    max-height: 400px; 
+    object-fit: cover; 
+  }
+  
+  .container {
+    max-width: 960px; 
+  }
+  
